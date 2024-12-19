@@ -1,0 +1,51 @@
+.postsContainer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-like-layout {
+  margin-top: 20px;
+}
+
+.header-card {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.value-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.value-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.actions-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 50%;
+}
+
+
+.tips-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+Card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
