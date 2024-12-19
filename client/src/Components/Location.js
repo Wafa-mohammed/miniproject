@@ -26,9 +26,9 @@ function Location() {
 
  return (
     <div>
-      <h6>{ip}</h6>
-      <h6>{country}</h6>
-      <h6>{region}</h6>
+      <p className="text-muted"> IP address: {ip}</p>
+      <p className="text-muted"> Country: {country}</p>
+      <p  className="text-muted"> Region: {region}</p>
     </div>
   );
 }
