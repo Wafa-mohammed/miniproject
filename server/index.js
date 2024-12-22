@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import UserModel from "./Models/UserModel.js";
 import PreventionTipsModel from "./Models/PreventionTipsModel.js"
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import dotenv from "dotenv"
 
 dotenv.config();
